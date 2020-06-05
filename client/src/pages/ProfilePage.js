@@ -28,7 +28,7 @@ const ProfilePage = ({ getAllPostsByUsername }) => {
                   <h2>@{username}</h2>
                </Col>
                <Col className='text-right'>
-                  <Link>
+                  <Link to=''>
                      <Button variant='outline-primary'>Edit Profile</Button>
                   </Link>
                </Col>
